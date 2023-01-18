@@ -37,3 +37,8 @@ my_tuple.insert(5, "black")
 my_tuple = tuple(my_tuple)
 print(my_tuple)
 print(type(my_tuple))
+
+# remove tuple 
+del my_tuple
+
+# print(my_tuple) NameError: name 'my_tuple' is not defined
